@@ -2,7 +2,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/Medianova-Tech/mn_slack_logger" id="top">
     <img src="http://medianova-logo.mncdn.com/logo-m.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -26,7 +26,7 @@ First, add MN Slack Logger to your project
   pip install git+https://github.com/Medianova-Tech/mn_slack_logger.git
   ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -46,6 +46,6 @@ slack_log(message="your error message", slack_url="Your slack hook", username="Y
           headers=headers, error=error_info)
 
   ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
