@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: mn-slack-logger
+Version: 0.1
+Summary: Slack logger by Medianova
+Author: Ibrahim Uluocak
+Keywords: pip,slack logger,medianova
+Requires-Dist: requests==2.31.0
