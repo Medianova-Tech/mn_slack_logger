@@ -42,7 +42,7 @@ error_info = "Example error info"
 
 # Sending log to Slack
 slack_log(message="your error message", slack_url="Your slack hook", username="Your user name", level="error",
-          url="https://github.com/yourusername/mn-slack-logger", params=params,
+          url="https://github.com/Medianova-Tech/mn_slack_logger", params=params,
           headers=headers, error=error_info)
 
   ```
