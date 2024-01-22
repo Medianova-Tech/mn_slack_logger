@@ -1,11 +1,13 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='mn_slack_logger',
-    packages=['mn_slack_logger'],
-    description='Slack logger by Medianova',
-    version='0.1',
+    description='Send FastAPI logs to Slack',
+    version='0.0.1',
     author='Medianova',
     keywords=['python', 'slack logger', 'medianova'],
-    install_requires=['requests==2.31.0']
+    packages=find_packages(),
+    install_requires=[
+        "requests",
+    ],
     )
