@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='mn_slack_logger',
     description='Send FastAPI logs to Slack',
-    version='0.0.1',
+    version='0.1.0',
     author='Medianova',
     keywords=['python', 'slack logger', 'medianova'],
     packages=find_packages(),
