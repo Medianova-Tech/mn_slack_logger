@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+dynamic = ["version"]
+name = "mn_slack_logger"
+authors = [
+  { name="Medianova Tech", email="medianovatech@medianova.com" },
+]
+description = "A Python package for logging error messages to a Slack channel"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.25.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/Medianova-Tech/mn_slack_logger"
+Issues = "https://github.com/Medianova-Tech/mn_slack_logger/issues"
+
+[tool.hatch.version]
+path = "mn_slack_logger/__init__.py"
