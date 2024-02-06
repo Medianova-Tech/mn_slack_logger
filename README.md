@@ -23,7 +23,7 @@ To use MN Slack Logger, follow these steps:
 
 First, add MN Slack Logger to your project
   ```sh
-  pip install git+https://github.com/Medianova-Tech/mn_slack_logger.git
+  pip install mn-slack-logger
   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
