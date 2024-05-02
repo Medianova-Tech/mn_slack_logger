@@ -2,7 +2,7 @@ name: PyPI-Slack-Logger
 
 on:
   release:
-    types: [created, published]
+    types: [published]
 
 jobs:
   build:
