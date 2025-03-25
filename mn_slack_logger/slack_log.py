@@ -22,7 +22,6 @@ class SlackLogger:
             print("Exception", error, message)
             return
 
-        self.message_list.add(message)
         color = self.colors.get(level, self.colors["default"])
         fields = self._build_fields(level, url, params, headers, error)
 
